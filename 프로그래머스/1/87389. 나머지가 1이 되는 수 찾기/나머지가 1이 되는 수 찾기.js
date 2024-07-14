@@ -5,4 +5,3 @@ const solution = n => {
     }
     return arr.reduce((a,b) => a < b ? parseInt(a) : parseInt(b));
 }
-parseInt()
