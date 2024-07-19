@@ -1,7 +1,9 @@
 const solution = (absolutes, sings) => {
     for(let i = 0; i < absolutes.length; i ++) {
-        if(sings[i] === true) absolutes[i] = Math.abs(absolutes[i]) 
-        else absolutes[i] = (absolutes[i]) * -1;
+        (sings[i] === true) 
+        ? absolutes[i] = Math.abs(absolutes[i]) 
+        : absolutes[i] = (absolutes[i]) * -1;
+        
     }
     return absolutes.reduce((a, b) => a + b, 0);
 }
