@@ -1,7 +1,7 @@
 const solution = n => {
-    let str = [];
+    let arr = [];
     for(i = 0; i < n; i++){
-        str.push(i % 2 === 0 ? '수' : '박');
+        arr.push(i % 2 === 0 ? '수' : '박');
     }
-    return str.join('');
+    return arr.join('');
 }
