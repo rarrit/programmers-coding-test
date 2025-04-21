@@ -1,0 +1,1 @@
+const solution = (box, n) => box.reduce((acc, len) => acc * Math.floor(len / n), 1);
